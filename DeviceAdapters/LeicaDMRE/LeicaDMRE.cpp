@@ -3,8 +3,15 @@
 // PROJECT:       Micro-Manager
 // SUBSYSTEM:     DeviceAdapters
 //-----------------------------------------------------------------------------
-// DESCRIPTION:   LeicaDMRxE hub module. Required for operation of all 
-//                LeicaDMRxE devices
+// DESCRIPTION:   LeicaDMRE hub module. Required for operation of the Leica DM RE,
+//                DM RXE, DM RME and DM IRBE.
+//
+//                In this device adapter we use the "General microscope" set
+//                of serial commands without addressing individual components with
+//                a different interface controller ID as in the LeiceDMR device adapater.
+// 
+//                For details, please refer to the Leica's "The serial interface 
+//                for the stands DM Rxx and DM IRBE" (1998).
 //
 // LICENSE:       This library is free software; you can redistribute it and/or
 //                modify it under the terms of the GNU Lesser General Public
